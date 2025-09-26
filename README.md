@@ -7,7 +7,7 @@ functions.
 The functions in this package are a scalar version of their vectorised counterparts in   
 the [numpy-financial](https://github.com/numpy/numpy-financial) library.  
   
-[![unit-tests status](https://github.com/razorpay/go-financial/workflows/unit-tests/badge.svg?branch=master "unit-tests")]("https://github.com/razorpay/go-financial/workflows/unit-tests/badge.svg?branch=master")  [![Go Report Card](https://goreportcard.com/badge/github.com/razorpay/go-financial)](https://goreportcard.com/report/github.com/razorpay/go-financial)  [![codecov](https://codecov.io/gh/razorpay/go-financial/branch/master/graph/badge.svg)](https://codecov.io/gh/razorpay/go-financial)  [![GoDoc](https://godoc.org/github.com/razorpay/go-financial?status.svg)](https://godoc.org/github.com/razorpay/go-financial) [![Release](https://img.shields.io/github/release/razorpay/go-financial.svg?style=flat-square)](https://github.com/razorpay/go-financial/releases)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![unit-tests status](https://github.com/bingbeann/go-financial/workflows/unit-tests/badge.svg?branch=master "unit-tests")]("https://github.com/bingbeann/go-financial/workflows/unit-tests/badge.svg?branch=master")  [![Go Report Card](https://goreportcard.com/badge/github.com/bingbeann/go-financial)](https://goreportcard.com/report/github.com/bingbeann/go-financial)  [![codecov](https://codecov.io/gh/bingbeann/go-financial/branch/master/graph/badge.svg)](https://codecov.io/gh/bingbeann/go-financial)  [![GoDoc](https://godoc.org/github.com/bingbeann/go-financial?status.svg)](https://godoc.org/github.com/bingbeann/go-financial) [![Release](https://img.shields.io/github/release/bingbeann/go-financial.svg?style=flat-square)](https://github.com/bingbeann/go-financial/releases)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
   
 Currently, only some functions are ported,  
 which are as follows:  
@@ -50,7 +50,7 @@ While the numpy-financial package contains a set of elementary financial functio
   * [Rate(Interest Rate)](#rate)
 	+ [Example(Rate-Investment)](#examplerate-investment)
  
- Detailed documentation is available at [godoc](https://godoc.org/github.com/razorpay/go-financial).
+ Detailed documentation is available at [godoc](https://godoc.org/github.com/bingbeann/go-financial).
 ## Amortisation(Generate Table)  
   
   
@@ -64,10 +64,10 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	financial "github.com/razorpay/go-financial"
-	"github.com/razorpay/go-financial/enums/frequency"
-	"github.com/razorpay/go-financial/enums/interesttype"
-	"github.com/razorpay/go-financial/enums/paymentperiod"
+	financial "github.com/bingbeann/go-financial"
+	"github.com/bingbeann/go-financial/enums/frequency"
+	"github.com/bingbeann/go-financial/enums/interesttype"
+	"github.com/bingbeann/go-financial/enums/paymentperiod"
 )
 
 func main() {
@@ -154,8 +154,8 @@ package main
 import (
 	"fmt"
 
-	gofinancial "github.com/razorpay/go-financial"
-	"github.com/razorpay/go-financial/enums/paymentperiod"
+	gofinancial "github.com/bingbeann/go-financial"
+	"github.com/bingbeann/go-financial/enums/paymentperiod"
 	"github.com/shopspring/decimal"
 )
 
@@ -204,8 +204,8 @@ package main
 import (
 	"fmt"
 
-	gofinancial "github.com/razorpay/go-financial"
-	"github.com/razorpay/go-financial/enums/paymentperiod"
+	gofinancial "github.com/bingbeann/go-financial"
+	"github.com/bingbeann/go-financial/enums/paymentperiod"
 	"github.com/shopspring/decimal"
 )
 
@@ -247,7 +247,7 @@ package main
 
 import (
 	"fmt"
-	gofinancial "github.com/razorpay/go-financial"	
+	gofinancial "github.com/bingbeann/go-financial"	
 	"github.com/shopspring/decimal"
 )
 
@@ -290,8 +290,8 @@ package main
 
 import (
 	"fmt"
-	gofinancial "github.com/razorpay/go-financial"
-	"github.com/razorpay/go-financial/enums/paymentperiod"
+	gofinancial "github.com/bingbeann/go-financial"
+	"github.com/bingbeann/go-financial/enums/paymentperiod"
 	"github.com/shopspring/decimal"
 )
 
@@ -319,8 +319,8 @@ package main
 
 import (
 	"fmt"
-	gofinancial "github.com/razorpay/go-financial"
-	"github.com/razorpay/go-financial/enums/paymentperiod"
+	gofinancial "github.com/bingbeann/go-financial"
+	"github.com/bingbeann/go-financial/enums/paymentperiod"
 	"github.com/shopspring/decimal"
 )
 
@@ -366,8 +366,8 @@ package main
 
 import (
 	"fmt"
-	gofinancial "github.com/razorpay/go-financial"
-	"github.com/razorpay/go-financial/enums/paymentperiod"
+	gofinancial "github.com/bingbeann/go-financial"
+	"github.com/bingbeann/go-financial/enums/paymentperiod"
 	"github.com/shopspring/decimal"
 )
 
@@ -420,8 +420,8 @@ package main
 
 import (
 	"fmt"
-	gofinancial "github.com/razorpay/go-financial"
-	"github.com/razorpay/go-financial/enums/paymentperiod"
+	gofinancial "github.com/bingbeann/go-financial"
+	"github.com/bingbeann/go-financial/enums/paymentperiod"
 	"github.com/shopspring/decimal"
 )
 
@@ -476,8 +476,8 @@ package main
 
 import (
 	"fmt"
-	gofinancial "github.com/razorpay/go-financial"
-	"github.com/razorpay/go-financial/enums/paymentperiod"
+	gofinancial "github.com/bingbeann/go-financial"
+	"github.com/bingbeann/go-financial/enums/paymentperiod"
 	"github.com/shopspring/decimal"
 )
 
@@ -552,8 +552,8 @@ package main
 import (
 	"fmt"
 
-	gofinancial "github.com/razorpay/go-financial"
-	"github.com/razorpay/go-financial/enums/paymentperiod"
+	gofinancial "github.com/bingbeann/go-financial"
+	"github.com/bingbeann/go-financial/enums/paymentperiod"
 	"github.com/shopspring/decimal"
 )
 
@@ -612,8 +612,8 @@ package main
 
 import (
 	"fmt"
-	gofinancial "github.com/razorpay/go-financial"
-	"github.com/razorpay/go-financial/enums/paymentperiod"
+	gofinancial "github.com/bingbeann/go-financial"
+	"github.com/bingbeann/go-financial/enums/paymentperiod"
 	"github.com/shopspring/decimal"
 )
 

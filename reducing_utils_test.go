@@ -6,7 +6,7 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/razorpay/go-financial/enums/paymentperiod"
+	"github.com/bingbeann/go-financial/enums/paymentperiod"
 )
 
 func Test_Pmt(t *testing.T) {

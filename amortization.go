@@ -10,9 +10,9 @@ import (
 
 	"github.com/shopspring/decimal"
 
+	"github.com/bingbeann/go-financial/enums/interesttype"
 	"github.com/go-echarts/go-echarts/v2/charts"
 	"github.com/go-echarts/go-echarts/v2/opts"
-	"github.com/razorpay/go-financial/enums/interesttype"
 )
 
 // Amortization struct holds the configuration and financial details.
@@ -143,6 +143,7 @@ func PlotRows(rows []Row, fileName string) (err error) {
 
 // getStackedBarPlot returns an instance for stacked bar plot.
 func getStackedBarPlot(rows []Row) *charts.Bar {
+	show := true
 	bar := charts.NewBar()
 	bar.SetGlobalOptions(charts.WithTitleOpts(opts.Title{
 		Title: "Loan repayment schedule",
@@ -152,8 +153,9 @@ func getStackedBarPlot(rows []Row) *charts.Bar {
 			Width:  "1200px",
 			Height: "600px",
 		}),
-		charts.WithToolboxOpts(opts.Toolbox{Show: true}),
-		charts.WithLegendOpts(opts.Legend{Show: true}),
+
+		charts.WithToolboxOpts(opts.Toolbox{Show: &show}),
+		charts.WithLegendOpts(opts.Legend{Show: &show}),
 		charts.WithDataZoomOpts(opts.DataZoom{
 			Type:  "inside",
 			Start: 0,

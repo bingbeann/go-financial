@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/razorpay/go-financial/enums/paymentperiod"
+	"github.com/bingbeann/go-financial/enums/paymentperiod"
 	"github.com/shopspring/decimal"
 )
 
