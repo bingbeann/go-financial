@@ -1,6 +1,6 @@
 module github.com/bingbeann/go-financial
 
-go 1.25
+go 1.2
 
 require (
 	github.com/go-echarts/go-echarts/v2 v2.6.2
